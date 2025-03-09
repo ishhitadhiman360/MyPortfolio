@@ -20,6 +20,18 @@ export const Projects = () => {
       url: "https://automatic-weather-monitoring-system.netlify.app/"
     },
     {
+      title: "Pyramid Solitaire",
+      description: "Data Structures & Algorithms",
+      imgUrl: projImg5,
+      url:"https://github.com/ishhitadhiman360/Pyramid-Solitaire"
+    },
+    {
+      title: "TaskFlow",
+      description: "DevOps & Automation",
+      imgUrl: projImg6,
+      url : "https://github.com/ishhitadhiman360/ToDo-List"
+    },
+    {
       title: "",
       description: "A MERN Stack website developed in a team of 4 members as part of the Minor project in 3rd year. This project uses ReactJS for frontend and MongoDB for database.",
       imgUrl: projImg2,
@@ -36,19 +48,7 @@ export const Projects = () => {
       description: "The project utilizes HTML to structure the different sections of the page, CSS to style and layout the elements, and JavaScript to add interactivity and dynamic features. This project is my attempt to demonstrate my proficiency in HTML, CSS, and JavaScript, as well as my ability to replicate the visual and interactive aspects of a popular web application. One of my personal favourites :)",
       imgUrl: projImg4,
       url: "https://spotify-dummy-page.vercel.app/"
-    },
-    {
-      title: "Speed Route",
-      description: "DSA - Graphs (Dijkstra Algorithm)",
-      imgUrl: projImg5,
-      url:""
-    },
-    {
-      title: "My portfolio!",
-      description: "React.js",
-      imgUrl: projImg6,
-      url : ""
-    },
+    }
   ];
 
   return (
